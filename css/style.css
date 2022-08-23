@@ -1,9 +1,20 @@
 body {
     font-family: 'Rubik', sans-serif;
+    margin: 0;
 }
 
 h1 {
     font-size: 65px;
+    color: white;
+}
+
+#part-one {
+    color: whitesmoke
+}
+
+#part-two {
+    color: rgba(0, 0, 0, 0.598);
+    padding: 10px 5px;
 }
 
 a {
@@ -12,10 +23,59 @@ a {
     background-image: linear-gradient(rgb(254, 76, 0), red);
     padding: 10px 20px;
     border-radius: 3px;
-
 }
 
-.first-page {
+#first-page {
     text-align: center;
-    font-weight
+    background-color: rgb(41, 23, 23);
+    background-image: url("../images/donation4.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 110%;
+    margin-bottom: 30px;
+    padding-top: 200px;
+    padding-bottom: 190px;
+}
+
+#second-page {
+    text-align: center;
+    font-size: 20px;
+}
+
+#amount {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.taka {
+    text-align: center, bold;
+    color: rgba(0, 0, 0, 0.491);
+    border: 0.5px solid rgba(0, 0, 0, 0.05);
+    background-color: rgba(91, 85, 85, 0.075);
+    padding: 20px 15px;
+}
+
+#tk {
+    color: rgba(255, 0, 0, 0.509);
+    border: 1px solid rgba(255, 0, 0, 0.491);
+    background-color: rgba(255, 0, 0, 0.231);
+    padding: 20px 20px;
+}
+
+#input {
+    padding: 20px 20px;
+    text-align: center;
+}
+
+.divider {
+    width: 100%;
+    height: 2px;
+    background-color: rgba(90, 85, 85, 0.717);
+    display: block;
+    text-align: center;
+}
+
+#donate-button {
+    text-align: center;
+    padding: 10px 20px;
+    margin-bottom: 100px;
 }
