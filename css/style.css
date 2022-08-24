@@ -8,6 +8,11 @@ h1 {
     color: rgb(255, 255, 255);
 }
 
+h2 {
+    font-size: 40px;
+    text-align: center;
+}
+
 #part-one {
     color: whitesmoke
 }
@@ -108,13 +113,17 @@ a {
 
 .donation-type {
     text-align: center;
-    padding: 5px;
-    margin: 50px;
+    padding: 6%;
+    margin: 0px;
 }
 
 .button-type {
     padding-left: 10%;
     padding-right: 10%;
+}
+
+.updates p {
+    text-align: center;
 }
 
 footer {
