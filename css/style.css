@@ -113,17 +113,37 @@ a {
 
 .donation-type {
     text-align: center;
-    padding: 6%;
-    margin: 0px;
+    padding: 5%;
 }
 
 .button-type {
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
 }
+
+.updates {}
 
 .updates p {
     text-align: center;
+}
+
+.email {
+    margin: 3%;
+    background-color: rgba(255, 205, 4, 0.231);
+    padding-top: 10%;
+    padding-bottom: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    border-radius: 3px;
+}
+
+.email-box {
+    color: white;
+    text-align: center;
+    margin: 0;
+    height: 40px;
+    padding-bottom: 5%;
+    font-family: "montserrat", sans-serif;
 }
 
 footer {
